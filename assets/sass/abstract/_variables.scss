@@ -1,0 +1,41 @@
+
+// First Color Scheme
+$nightblack: #101C1B;
+$skye: #AADBE4;
+$blossom: #D26461;
+$greyish: #57595C;
+
+// Second Color Scheme
+$blue-bell: #A491D2;
+$soap: #CDC3E6;
+$pale-lavander: #D4DCFF;
+
+//Third Color Scheme
+$dark-jungle: #1B1F21;
+$outer-space: #444749;
+$old-silver: #828485;
+
+//Font Family
+$roboto: 'Roboto', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+// Font Weight
+$regular: 400;
+$medium: 600;
+$bold: 700;
+
+// Font Sizes
+$large: 45px;
+$medium: 16px;
+$small: 14px;
+$x-small: 10px;
+
+//Breakpoints
+$breakpoints: (
+  'small': (min-width: 576px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 992px),
+  'extralarge': (min-width: 1500px),
+);

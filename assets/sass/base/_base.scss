@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1200px) {
+	body {
+	width: 1200px;
+	margin: 0 auto;
+	}
+}
+
+#site-wrapper {
+    
+    margin: 0 auto;
+
+    @include respond-to('small'){
+    width: 100%;
+    }
+
+    @include respond-to('medium'){
+    width: 100%;
+    }
+
+    @include respond-to('large'){
+    width: 960px;
+    }
+
+    @include respond-to('extralarge'){
+    width: 1200px;
+    }
+}

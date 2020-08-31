@@ -1,0 +1,47 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.sidebar {
+border: 1px solid $nightblack;
+}
+
+.header {
+border-bottom: 1px solid $nightblack;
+}
+.contact-menu__content>h3 {
+	font-size: $medium;
+}
+.contact-menu__buttton {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+	padding: 2em;
+}
+.contact-menu__item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center	;
+	    -ms-flex-align: center	;
+	        align-items: center	;
+	border-top: 2px solid $nightblack;
+	padding: 1em;
+}
+.contact-menu__content {
+	h3 {
+	margin: 0;
+	}
+	p {
+	margin: 0;
+	font-size: $small;
+	}
+}

@@ -1,0 +1,48 @@
+.main {
+padding-top: 12em;
+border-right: 1px solid $nightblack;
+
+	p {
+	padding-left: 5em;
+	padding-right: 5em;
+	span {
+	font-weight: $bold;
+	}
+	}
+}
+.message-dashboard {
+text-align: center;
+
+	img {
+	max-width: 40%;
+	padding-bottom: 1em;
+	}
+
+}
+
+.user-info {
+	display: flex;
+	align-items: center;
+	padding-left: 1em;
+	vertical-align: middle;
+}
+.user-info__summary {
+	padding-left: 8em;
+	font-family: $montserrat;
+		
+		h2 {
+		margin: 0;
+		font-size: $bold;
+		}
+		
+		p {
+		margin: 0;
+		font-size: $x-small;
+		color: $nightblack;
+		}
+}
+
+.user-info__summary__botones {
+	color: $blossom;
+}
+

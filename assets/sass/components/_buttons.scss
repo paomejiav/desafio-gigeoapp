@@ -1,0 +1,18 @@
+.button {
+	padding: 1rem 4rem;
+	cursor: pointer;
+	font-family: $roboto;
+	font-size: $medium;
+	font-weight: $bold;
+}
+.button_primary {
+	border: none;
+	color: $skye;
+	background-color: $blue-bell;
+		&:hover {
+		background-color: $pale-lavander;
+		}
+		&:focus {
+		background-color: $blossom;
+		}
+}
